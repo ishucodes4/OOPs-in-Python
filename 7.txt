@@ -1,0 +1,13 @@
+#you can also add attributes to the instances in python. :)
+#means ek class mein bas wo wo hona zaruri nahin jo bs constructor ne specify krre ho
+class item:
+    def __init__ (self,name,price,quantity):
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+        
+
+item1=item("TV",1000,2)
+item2=item("Laptop",2000,1)
+item2.has_notepad=True
+print(item2.has_notepad)

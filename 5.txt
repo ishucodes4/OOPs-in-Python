@@ -1,0 +1,10 @@
+class item:
+    def __init__(self,name,price,quantity):
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+        
+item1=item("ishan",1000000,1)
+print(item1.name)
+print(item1.price)
+print(item1.quantity)

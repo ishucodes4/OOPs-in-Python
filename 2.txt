@@ -1,0 +1,13 @@
+#so lets create our first class now
+class item:
+    pass
+
+item1=item()
+item1.name="phone"
+item1.quantity=5
+item1.price=100
+
+print(type(item1))  # clearly item1 ek class hain object item ki
+print(type(item1.name)) #normal baat
+print(type(item1.quantity))
+print(type(item1.price))

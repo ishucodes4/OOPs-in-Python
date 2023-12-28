@@ -1,0 +1,4 @@
+#whenever you are creating a method inside a class in python it shall have atleast one parameter,agar kuch bhi nhi pass kr rahe ho to shaanti se atleast self to likh hi do. for example--
+class Item:
+    def calculate(self):
+        pass

@@ -1,0 +1,12 @@
+'''understanding class attributes:
+    
+Kuch properties hum seedhe class ki bna kr rakh skte hain and hum usko dno class and object k level pr print krwa kr rakh skte hain'''
+
+class item:
+    attribute=0.8
+    def __init__(self):
+        print("OBJECT CREATED")
+        
+item1=item()
+print(item.attribute)
+print(item1.attribute)

@@ -1,0 +1,12 @@
+#In python each datatype is an object as you can see in this code-
+item="phone"
+price=100
+numberofitems=5
+totalprice=5*100
+
+print(type(item))
+print(type(price))
+print(type(numberofitems))
+print(type(totalprice))
+
+#as we can see in output each datatype is an object in python
